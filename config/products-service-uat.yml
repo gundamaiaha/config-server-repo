@@ -3,11 +3,11 @@ spring:
     active: postgres
     mysql:
       url: jdbc:mysql://localhost:3306/products_db
-      username: root
-      password: root
+      username: app_user
+      password: userpassword
       driver-class-name: com.mysql.cj.jdbc.Driver
     postgres:
       url: jdbc:postgresql://localhost:5432/products_db
-      username: root
-      password: root
-      driver-class-name: org.postgresql.Driver
+      username: app_user
+      password: userpassword
+      driver-class-name: org.postgresql.Driver 
