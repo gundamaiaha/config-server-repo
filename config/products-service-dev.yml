@@ -13,5 +13,5 @@ spring:
       driver-class-name: org.postgresql.Driver
 
 app:
-  env: dev
-  name: products-service
+  env: dev123
+  name: products-service-123
